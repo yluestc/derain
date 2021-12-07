@@ -1,6 +1,6 @@
-# Rethinking Image Deraining via Rain Streaks and Vapors
+# ECCV2020: Rethinking Image Deraining via Rain Streaks and Vapors
 
-This is an implementation of the ASV-Joint model proposed in the paper
+This is an implementation of the ASV-Joint model proposed in the ECCV 2020 paper
 ([Rethinking Image Deraining via Rain Streaks and Vapors](https://arxiv.org/pdf/2008.00823.pdf))
 with PyTorch
 
