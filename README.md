@@ -1,15 +1,28 @@
+# Rethinking Image Deraining via Rain Streaks and Vapors
 
-运行环境：python:3.6.4
+This is an implementation of the ASV-Joint model proposed in the paper
+([Rethinking Image Deraining via Rain Streaks and Vapors](https://arxiv.org/pdf/2008.00823.pdf))
+with PyTorch
+
+# Requirements
+python:3.6.4
 pytorch: 0.4.1
+ipdb
+torchnet
 
-或
-cudatoolkit               9.2 
-cudnn                     7.3.1                 cuda9.2_0 
-opencv-python             4.1.0.25                 pypi_0
-python                    3.6.8
-pytorch                   1.0.1 
-tensorboard               1.12.2
-tensorboardx              1.7
-tensorflow-gpu            1.12.0 
-torch                     1.0.0
-在安装tensorflow或者pytorch的时候其他的很多软件就会自动安装，但是安装tensorflow对环境的要求更加严格，所以应该先安装相应版本的tensorflow，然后再安装pytorch.
+## Evaluation
+Run the following commands:
+bash test.sh
+
+you can set testing root in 'tesh.sh'
+
+
+# Citation
+'''
+@inproceedings{wang-eccv20-rethinking,
+  title={Rethinking Image Deraining via Rain Streaks and Vapors},
+  author={Wang, Yinglong and Song, Yibing and Ma, Chao and Zeng, Bing},
+  booktitle=ECCV,
+  year={2020},
+}
+'''
