@@ -21,9 +21,10 @@ you can set testing root in 'tesh.sh'
 
 
 # Citation
-@inproceedings{wang-eccv20-rethinking,
-  title={Rethinking Image Deraining via Rain Streaks and Vapors},
-  author={Wang, Yinglong and Song, Yibing and Ma, Chao and Zeng, Bing},
-  booktitle=ECCV,
-  year={2020},
-}
+    
+    @inproceedings{wang-eccv20-rethinking,
+      title={Rethinking Image Deraining via Rain Streaks and Vapors},
+      author={Wang, Yinglong and Song, Yibing and Ma, Chao and Zeng, Bing},
+      booktitle=ECCV,
+      year={2020}
+    }
