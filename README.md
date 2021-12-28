@@ -12,7 +12,7 @@ torchnet
 
 ## Evaluation
 
-download the checkpoints file from ([icloud](https://www.icloud.com.cn/iclouddrive/074yGL4RH3bydyd_-ni2vSZKw#eccv2020%5Fderain%5Fcheckpoints)) and unzip them in the current directory (replace partial data files from github)
+download the checkpoints file from [icloud](https://www.icloud.com.cn/iclouddrive/074yGL4RH3bydyd_-ni2vSZKw#eccv2020%5Fderain%5Fcheckpoints) and unzip them in the current directory (replace partial data files from github)
 
 Run the following commands:
 bash test.sh
